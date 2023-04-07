@@ -1,0 +1,33 @@
+class ImageUtils {
+  static const base = 'assets/images/';
+  static const baseProduct = 'assets/images/product_images/';
+  static const primaryLogo = 'primary_logo.png';
+  static const secondaryLogo = 'secondary_logo.png';
+  static const iconEyeOpen = 'eye_open.png';
+  static const iconEyeClose = 'eye_closed.png';
+  static const iconGoogle = 'google.png';
+  static const iconFacebook = 'facebook.png';
+  static const iconHomeActive = 'home_active.png';
+  static const iconHomeInactive = 'home_inactive.png';
+  static const iconCategoryActive = 'category_active.png';
+  static const iconCategoryInactive = 'category_inactive.png';
+  static const iconCartActive = 'cart_active.png';
+  static const iconCartInactive = 'cart_inactive.png';
+  static const iconDiscountActive = 'discount_active.png';
+  static const iconDicountInactive = 'discount_inactive.png';
+  static const iconProfileActive = 'profile_active.png';
+  static const iconProfileInactive = 'profile_inactive.png';
+  static const iconSearch = 'search.png';
+  static const iconNotification = 'notification.png';
+  static const imageMen = 'men.png';
+  static const imageWomen = 'women.png';
+  static const imageBoys = 'boys.png';
+  static const imageGirls = 'girls.png';
+  static const imageJewellery = 'jewellery.png';
+  static const imageOffer = 'offer.png';
+  static const shirt1 = '${baseProduct}women_shirt.png';
+  static const shirt2 = '${baseProduct}shirt_2.png';
+  static const shirt3 = '${baseProduct}shirt_3.png';
+  static const iconHistory= 'history.png';
+  static const iconBack= '${base}back.png';
+}
