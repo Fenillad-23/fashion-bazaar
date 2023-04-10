@@ -1,12 +1,9 @@
 // ignore_for_file: prefer_const_constructors
-
 import 'package:fashion_bazaar/utils/route_generator.dart';
 import 'package:fashion_bazaar/utils/string_utils.dart';
 import 'package:fashion_bazaar/widgets/edit_text.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../utils/color_utils.dart';
-
 import '../utils/color_utils.dart';
 import '../utils/image_utils.dart';
 import 'TextView.dart';
@@ -93,11 +90,12 @@ AppBar Appbar(
     actions: actions,
     bottom: PreferredSize(
         preferredSize: Size.fromHeight(bottom! ? 30 : 0),
-        child: bottom!
+        child: bottom
             ? Padding(
                 padding:
                     const EdgeInsets.symmetric(horizontal: 24.0, vertical: 16),
                 child: EditText(
+
                   borderRadius: 6,
                   prefixIcon: Padding(
                     padding: const EdgeInsets.only(left: 15.98, right: 2),

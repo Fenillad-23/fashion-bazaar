@@ -1,4 +1,4 @@
-class StringUtils{
+class StringUtils {
   static const lblSignIn = 'Sign In';
   static const lblSignUp = 'Sign Up';
   static const lblSignInMsg = 'Sign in to your registered account';
@@ -34,5 +34,19 @@ class StringUtils{
   static const lblViewAll = 'View All';
   static const lblRecomended = 'Recommended for You';
   static const lblNotifications = 'Notifications';
-
+  static const lblCategories = 'See All Categories';
+  static const lblTop = 'Top';
+  static const lblJeans = 'Jeans';
+  static const lblDenim = 'Denim';
+  static const lblTshirt = 'T Shirts';
+  static const lblKurtas = 'Kurtas';
+  static const lblCasual = 'Casual';
+  static const lblPents = 'Pents';
+  static const lblShoes = 'Shoes';
+  static const lblChild = 'Children';
+  static const lblMyCart = 'My Cart';
+  static const lblProblem = 'OOPS!!!';
+  static const lblEmptyCartMsg = 'Your Cart is Empty! Go Shop something Now.';
+  static const lblMyOffers = 'My Offers';
+  static const lblApply = 'Apply';
 }

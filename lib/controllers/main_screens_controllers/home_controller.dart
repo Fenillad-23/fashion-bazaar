@@ -6,9 +6,11 @@ import '../../utils/image_utils.dart';
 import '../../utils/route_generator.dart';
 
 class HomeScreenController extends GetxController {
+
+
   List categories = [
-    {'img': ImageUtils.imageMen, 'label': StringUtils.lblMen},
-    {'img': ImageUtils.imageWomen, 'label': StringUtils.lblWomen},
+    {'img': ImageUtils.men, 'label': StringUtils.lblMen},
+    {'img': ImageUtils.women, 'label': StringUtils.lblWomen},
     {'img': ImageUtils.imageBoys, 'label': StringUtils.lblBoys},
     {'img': ImageUtils.imageGirls, 'label': StringUtils.lblGirls},
     {'img': ImageUtils.imageJewellery, 'label': StringUtils.lblJewellery},
