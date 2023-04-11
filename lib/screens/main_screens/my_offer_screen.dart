@@ -34,7 +34,7 @@ class MyOfferScreen extends StatelessWidget {
                           const SliverGridDelegateWithFixedCrossAxisCount(
                               childAspectRatio: 0.7,
                               crossAxisCount: 2,
-                              crossAxisSpacing: 15,
+
                               mainAxisSpacing: 10),
                       itemCount: _.offers.length,
                       itemBuilder: (context, index) {

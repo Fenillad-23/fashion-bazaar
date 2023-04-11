@@ -73,7 +73,7 @@ AppBar Appbar(
             icon: ImageView(
               path!,
               ImageType.asset,
-              height: 20,
+              height: 10.49,
               width: 20,
               fit: BoxFit.fill,
             ),

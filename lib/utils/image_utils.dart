@@ -47,4 +47,16 @@ class ImageUtils {
   static const imageAdidas= '${base}adidas.png';
   static const imageZara= '${base}zara.png';
   static const imageVastram= '${base}vastram.png';
+  static const imageProfile= '${base}profile.png';
+  static const imageCamera= '${base}camera.png';
+  static const imagePerson= '${base}person.png';
+  static const imagePassword= '${base}password.png';
+  static const imageAddressBook= '${base}address_book.png';
+  static const imageOrderHistory= '${base}order_history.png';
+  static const imageContactUs= '${base}contactUs.png';
+  static const imageAboutUs= '${base}aboutUs.png';
+  static const imageTermsAndConditions= '${base}terms_conditions.png';
+  static const imagePrivacyPolicy= '${base}privacy_policy.png';
+  static const imageLogout= '${base}logout.png';
+  static const imageEdit= '${base}edit.png';
 }

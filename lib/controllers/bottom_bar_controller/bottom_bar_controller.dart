@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import '../../screens/main_screens/cart_screen.dart';
 import '../../screens/main_screens/category_screens.dart';
 import '../../screens/main_screens/home_screen.dart';
+import '../../screens/main_screens/my_account_screen.dart';
 import '../../screens/main_screens/my_offer_screen.dart';
 
 class BottomBarController extends GetxController {
@@ -12,7 +13,7 @@ class BottomBarController extends GetxController {
     const CategoryScreen(),
     const CarScreen(),
     const MyOfferScreen(),
-    const HomeScreen()
+    const MyAccountScreen()
   ];
   void changeScreen(int index) => selectedIndex.value = index;
 }
